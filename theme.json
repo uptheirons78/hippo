@@ -1,0 +1,213 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {"slug": "h-neutral-50", "color": "#fafafa", "name": "Hippo Neutral 50"},
+        {"slug": "h-neutral-100", "color": "#f5f5f5", "name": "Hippo Neutral 100"},
+        {"slug": "h-neutral-200", "color": "#e5e5e5", "name": "Hippo Neutral 200"},
+        {"slug": "h-neutral-300", "color": "#d4d4d4", "name": "Hippo Neutral 300"},
+        {"slug": "h-neutral-400", "color": "#a3a3a3", "name": "Hippo Neutral 400"},
+        {"slug": "h-neutral-500", "color": "#737373", "name": "Hippo Neutral 500"},
+        {"slug": "h-neutral-600", "color": "#525252", "name": "Hippo Neutral 600"},
+        {"slug": "h-neutral-700", "color": "#404040", "name": "Hippo Neutral 700"},
+        {"slug": "h-neutral-800", "color": "#262626", "name": "Hippo Neutral 800"},
+        {"slug": "h-neutral-900", "color": "#171717", "name": "Hippo Neutral 900"},
+        {"slug": "h-sky-50", "color": "#f0f9ff", "name": "Hippo Sky 50"},
+        {"slug": "h-sky-100", "color": "#e0f2fe", "name": "Hippo Sky 100"},
+        {"slug": "h-sky-200", "color": "#bae6fd", "name": "Hippo Sky 200"},
+        {"slug": "h-sky-300", "color": "#7dd3fc", "name": "Hippo Sky 300"},
+        {"slug": "h-sky-400", "color": "#38bdf8", "name": "Hippo Sky 400"},
+        {"slug": "h-sky-500", "color": "#0ea5e9", "name": "Hippo Sky 500"},
+        {"slug": "h-sky-600", "color": "#0284c7", "name": "Hippo Sky 600"},
+        {"slug": "h-sky-700", "color": "#0369a1", "name": "Hippo Sky 700"},
+        {"slug": "h-sky-800", "color": "#075985", "name": "Hippo Sky 800"},
+        {"slug": "h-sky-900", "color": "#0c4a6e", "name": "Hippo Sky 900"}
+      ],
+      "duotone": [
+        {"slug": "h-dark-brieze", "colors": ["#171717","#0c4a6e"], "name": "Hippo Dark Brieze"}
+      ],
+      "gradients": [
+        {
+          "slug": "h-otta",
+          "name": "Hippo Otta",
+          "gradient": "linear-gradient(#bae6fd, #075985)"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1100px"
+    },
+    "spacing": {
+      "spacingScale": {
+        "steps": 0
+      },
+      "spacingSizes": [
+        {
+          "size": "clamp(1.5rem, 5vw, 2rem)",
+          "slug": "30",
+          "name": "1"
+        },
+        {
+          "size": "clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)",
+          "slug": "40",
+          "name": "2"
+        },
+        {
+          "size": "clamp(2.5rem, 8vw, 4.5rem)",
+          "slug": "50",
+          "name": "3"
+        },
+        {
+          "size": "clamp(3.75rem, 10vw, 7rem)",
+          "slug": "60",
+          "name": "4"
+        },
+        {
+          "size": "clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem)",
+          "slug": "70",
+          "name": "5"
+        },
+        {
+          "size": "clamp(7rem, 14vw, 11rem)",
+          "slug": "80",
+          "name": "6"
+        }
+      ],
+      "units": [
+        "px",
+        "rem",
+        "vh",
+        "vw",
+        "%"
+      ]
+    },
+    "typography": {
+      "dropCap": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Inter Var",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./assets/fonts/Inter-var.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Inter Var\", sans-serif",
+          "name": "Inter Var",
+          "slug": "inter-var"
+        }
+      ],
+      "fontSizes": [
+        {
+          "fluid": {
+            "min": "0.875rem",
+            "max": "1rem"
+          },
+          "size": "1rem",
+          "slug": "small",
+          "name": "Small"
+        },
+        {
+          "fluid": {
+            "min": "1rem",
+            "max": "1.125rem"
+          },
+          "size": "1.125rem",
+          "slug": "medium",
+          "name": "Medium"
+        },
+        {
+          "fluid": {
+            "min": "1.75rem",
+            "max": "1.875rem"
+          },
+          "size": "1.75rem",
+          "slug": "large",
+          "name": "Large"
+        },
+        {
+          "fluid": false,
+          "size": "2.25rem",
+          "slug": "x-large",
+          "name": "X Large"
+        },
+        {
+          "fluid": {
+            "min": "4rem",
+            "max": "10rem"
+          },
+          "size": "10rem",
+          "slug": "xx-large",
+          "name": "XX Large"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--h-neutral-700)"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--inter-var)",
+      "fontSize": "var(--wp--preset--font-size--medium)",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "lineHeight": "inherit",
+      "textDecoration": "none",
+      "textTransform": "none"
+    },
+    "spacing": {
+      "blockGap": "1.5rem",
+      "margin": {
+        "top": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "right": "0px"
+      },
+      "padding": {
+        "top": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "right": "0px"
+      }
+    },
+    "elements": {
+			"link": {
+        "typography": {
+					"textDecoration": "none"
+				},
+        "color": {
+          "text": "var(--wp--preset--color--h-sky-700)"
+        }
+			}
+		},
+    "blocks": {
+      "core/site-title": {
+        "color": {
+          "text": "var(--wp--preset--color--h-sky-700)"
+        },
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--x-large)",
+          "fontWeight": "800",
+          "letterSpacing": "1px",
+          "textTransform": "uppercase"
+        }
+      },
+      "core/quote": {
+        "border": {
+          "width": "2px",
+          "color": "var(--wp--preset--color--h-sky-700)"
+        }
+      }
+    }
+  }
+}
